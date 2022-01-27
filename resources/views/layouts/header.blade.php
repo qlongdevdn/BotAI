@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="{{ URL::asset('../css/app.css'); }}" />
+    <link rel="icon" href="../data/img/favicon.ico" type="image/x-icon">
 </head>
 <header class="header">
     <div class="container-fluid">
@@ -33,14 +34,14 @@
                             <a class="nav-item-link" href="">Giới thiệu</a>
                         </li>
                         <li class="nav-item"><a class="nav-item-link" href="">Sản phẩm</a></li>
-                        <li class="nav-item"><a class="nav-item-link" href="">Dịch vụ</a></li>
+                        <li class="nav-item"><a class="nav-item-link" href="">Chat-Box</a></li>
                         <li class="nav-item"><a class="nav-item-link" href="">Crypto</a></li>
                         <li class="nav-item"><a class="nav-item-link" href="">Phát triển</a></li>
                         <li class="nav-item"><a class="nav-item-link" href="">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="top_bar-login">
-                    <button class="btn btn-login">Đăng nhập</button>
+                    <button onclick="location.href='/login';" class="btn btn-login">Đăng nhập</button>
                     <div class="expert">
                         <div class="expert-contact">
                             <a href="" class="expert-link">Liên hệ với chúng tôi</a>

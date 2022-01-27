@@ -1,5 +1,5 @@
 const title = document.getElementById('title')
-let text = 'The Intelligent Chatbot Building Platform';
+let text = 'Nền tảng xây dựng Chatbot thông minh';
 let lengthTitle = text.length;
 let index = 0;
 setInterval(function () {
