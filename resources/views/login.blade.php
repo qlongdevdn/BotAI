@@ -1,6 +1,10 @@
 @include('layouts/header')
 
 <body>
-    <main></main>
+    <main>
+        <section class="">
+
+        </section>
+    </main>
 </body>
 @include('layouts/footer')
