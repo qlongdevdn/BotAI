@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -103,30 +103,37 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 body {
-	font-size: 15px;
-	line-height: 1;
-	font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: "";
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-

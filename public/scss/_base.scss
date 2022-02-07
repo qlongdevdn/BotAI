@@ -1,12 +1,24 @@
 a {
-	   transition: all linear 0.2s;
+    transition: all linear 0.2s;
     display: inline-block;
-				padding: 8px 10px;
-				margin-right: 8px;
-				color: $textColor;
-				text-decoration: none;
-				font-weight: 600;
+    padding: 8px 10px;
+    margin-right: 8px;
+    color: $textColor;
+    text-decoration: none;
+    font-weight: 600;
 }
 .active {
- color: $primaryColor !important;
+    color: $primaryColor !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+main {
+    flex: 1 0 auto;
+}
+header {
+    flex-shrink: 0;
+}
+footer {
+    flex-shrink: 0;
 }

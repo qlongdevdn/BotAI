@@ -1,0 +1,65 @@
+.footer {
+    background-color: $textColor;
+    .container {
+        .row {
+            .wrap-footer {
+                padding: 40px 20px;
+                display: flex;
+                .col-2 {
+                    .footer_logo {
+                        .footer_logo-img {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            a,
+                            i {
+                                display: inline-block;
+                                color: $primaryColor;
+                                margin: 0;
+                                line-height: 35px;
+                                font-size: 35px;
+                            }
+                            a {
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                    .footer_list {
+                        .footer_item {
+                            line-height: 30px;
+                            a {
+                                font-size: 14px;
+                                display: block;
+                                margin: 0;
+                                color: $secondTextColor;
+                                font-weight: normal;
+                                &:hover {
+                                    cursor: pointer;
+                                    color: $primaryColor;
+                                }
+                            }
+                        }
+                        .footer_item:first-child a {
+                            font-size: 16px;
+                            cursor: text;
+                            &:hover {
+                                color: $secondTextColor;
+                            }
+                        }
+                    }
+                }
+                .copyright-text {
+                    text-align: center;
+                    color: $secondTextColor;
+                }
+            }
+            .version-text{
+                text-align: center;
+                color: $secondTextColor;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
