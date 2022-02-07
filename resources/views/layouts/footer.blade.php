@@ -53,7 +53,7 @@
                 <div class="col-2">
                     <ul class="footer_list business">
                         <li class="footer_item"><a class="bold" href="">Liên hệ chúng tôi</a></li>
-                        <li class="footer_item"><a href="">Careers in Infobip</a></li>
+                        <li class="footer_item"><input type="email" placeholder="Nhập email của bạn !!"></li>
                     </ul>
                 </div>
             </div>
