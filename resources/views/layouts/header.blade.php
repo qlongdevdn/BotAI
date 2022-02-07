@@ -21,7 +21,7 @@
                 <div class="top_bar-logo">
                     <div class="icon-logo">
                         <div class="title-logo">
-                            <a href="">
+                            <a href="/">
                                 <i class="fas fa-robot"></i>
                                 Chat Box
                             </a>

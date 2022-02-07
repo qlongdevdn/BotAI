@@ -282,6 +282,11 @@ footer {
         .footer .container .row .wrap-footer .col-2 .footer_list .footer_item a:hover {
           cursor: pointer;
           color: #FF5A00; }
+      .footer .container .row .wrap-footer .col-2 .footer_list .footer_item input {
+        border-radius: 10px;
+        width: 40vh; }
+      .footer .container .row .wrap-footer .col-2 .footer_list .footer_item input:focus {
+        outline: none; }
     .footer .container .row .wrap-footer .col-2 .footer_list .footer_item:first-child a {
       font-size: 16px;
       cursor: text; }
