@@ -5,7 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Box - Việt Nam</title>
+    <title> @if(View::hasSection('title'))
+        @yield('title')
+        @else
+        Chat Box - Việt Nam
+        @endif
+    </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
@@ -52,3 +57,10 @@
         </div>
     </div>
 </header>
+
+<body>
+    @section('main')
+    @show
+
+</body>
+@extends('/layouts/footer');
